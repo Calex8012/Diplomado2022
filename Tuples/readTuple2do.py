@@ -1,6 +1,5 @@
 
 import pickle
-from re import T
 
 with open('Tuples.bin','rb') as fh:
         tuple = pickle.load(fh) 
