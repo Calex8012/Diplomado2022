@@ -1,4 +1,5 @@
 #Obtener la raiz de e^{2-x}-7=0
+#import matplotlib.pyplot as plit
 from math import exp
 
 def fun(x):
@@ -17,4 +18,5 @@ x3=x2-fun(x2)/der(x2)
 print('Valor de x3= ', x3)
 print('Valor de la funcion =',fun(x3))
 print('La raiz es ',x3)
- #No supe como graficarla la raiz 
+#graficar
+
